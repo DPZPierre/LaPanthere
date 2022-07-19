@@ -100,8 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    /* color: rgba(255, 255, 255, .7); */
-    color: #000000;
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -134,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #000000;
+    color: rgba(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -276,8 +275,6 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
-    display: flex;
-    justify-content: space-between;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -410,10 +407,6 @@ a:hover {
     background: none!important;
     display: block;
     padding: 14px 15px;
-}
-
-.nav li:hover{
-    text-decoration: underline;
 }
 
 nav .caret {
@@ -591,8 +584,6 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
-    justify-content: center;
-    display: flex;
 }
 
 .close-lightbox {
@@ -686,15 +677,7 @@ a {
 }
 
 p {
-    font-size: 18px;
-}
-
-.citation-text{
-    font-style: italic;
-}
-
-.citation-author{
-    font-style: normal;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -722,12 +705,12 @@ p {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 22px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -753,28 +736,15 @@ h4 {
 }
 
 .white {
-    color: #fff!important;
+    color: #FFFFFF!important;
 }
-
-.black{
-    color: #000000!important;
-}
-
-.contact-title{
-    color: #000!important;
-}
-
-.contact-text{
-    color: #000!important;
-}
-
 
 .portfolio-thumb {
     margin-bottom: 24px;
 }
 
 .portfolio-row {
-    /* margin-bottom: 44px; */
+    margin-bottom: 44px;
     margin-top: 50px;
 }
 
@@ -805,13 +775,12 @@ h4 {
 }
 
 .tc-white {
-    color: #fff!important;
-    font-size: 22px;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000000!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -849,40 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence_la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
-}
-
-.partner-title{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 18px;
-    padding: 20px;
-}
-
-.partner-link ul{
-    display: flex;
-    text-decoration: none;
-    justify-content: space-around;
-    padding: 5px;
-    flex-wrap:wrap;
-}
-.partner-link li{
-   flex-wrap: wrap;
-   list-style-type: none;
-}
-
-@media (max-width: 530px) and (min-width: 310px) {
-    .partner-link ul{
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        text-align: left;
-    }
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
