@@ -77,6 +77,10 @@ h1 {
     font-size: 2em
 }
 
+h2{
+    font-size: 30px;
+}
+
 mark {
     color: #000;
     background: #ff0
@@ -1373,14 +1377,15 @@ th {
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    
 }
 
 :after,
 :before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html {
@@ -1427,7 +1432,8 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    width: 270px;
 }
 
 .carousel-inner>.item>a>img,
@@ -1435,9 +1441,9 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
+    
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -3090,7 +3096,8 @@ label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: 700
+    font-weight: 700;
+    font-size: 18px;
 }
 
 input[type=search] {
@@ -7158,7 +7165,8 @@ button.close {
 
 .modal-body {
     position: relative;
-    padding: 15px
+    padding: 15px;
+    display: flex;
 }
 
 .modal-footer {
